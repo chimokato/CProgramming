@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "av_interface", "av_interface\av_interface.vcproj", "{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "av_server", "av_server\av_server.vcproj", "{AF65BD57-BC22-405E-AA0C-C85576D0A00E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D} = {D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "av_client", "av_client\av_client.vcproj", "{C89F19BE-3FE5-4940-89AB-BF36EE1B1B43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}.Debug|Win32.Build.0 = Debug|Win32
+		{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}.Release|Win32.ActiveCfg = Release|Win32
+		{D0A5B0F8-DC5F-4F9C-A000-2FF1E732456D}.Release|Win32.Build.0 = Release|Win32
+		{AF65BD57-BC22-405E-AA0C-C85576D0A00E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF65BD57-BC22-405E-AA0C-C85576D0A00E}.Debug|Win32.Build.0 = Debug|Win32
+		{AF65BD57-BC22-405E-AA0C-C85576D0A00E}.Release|Win32.ActiveCfg = Release|Win32
+		{AF65BD57-BC22-405E-AA0C-C85576D0A00E}.Release|Win32.Build.0 = Release|Win32
+		{C89F19BE-3FE5-4940-89AB-BF36EE1B1B43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C89F19BE-3FE5-4940-89AB-BF36EE1B1B43}.Debug|Win32.Build.0 = Debug|Win32
+		{C89F19BE-3FE5-4940-89AB-BF36EE1B1B43}.Release|Win32.ActiveCfg = Release|Win32
+		{C89F19BE-3FE5-4940-89AB-BF36EE1B1B43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

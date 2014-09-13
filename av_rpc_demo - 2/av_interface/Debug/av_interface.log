@@ -1,0 +1,13 @@
+﻿Build started 9/12/2014 10:09:39 AM.
+     1>Project "C:\Users\TOANTV\Documents\Visual Studio 2008\Projects\av_rpc_demo - 2\av_interface\av_interface.vcxproj" on node 2 (Rebuild target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\midl.exe /W4 /nologo /char ascii7 /env win32 /h "rpc_interface.h" /notlb rpc_interface.idl 
+         Processing .\rpc_interface.idl
+         rpc_interface.idl
+         Processing .\rpc_interface.acf
+         rpc_interface.acf
+     1>Done Building Project "C:\Users\TOANTV\Documents\Visual Studio 2008\Projects\av_rpc_demo - 2\av_interface\av_interface.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
