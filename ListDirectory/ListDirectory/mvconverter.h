@@ -1,12 +1,13 @@
 #pragma once
-#import <string>
-using namespace std;
+#include <iostream>
+#include <string>
 
-class MVConverter
+
+class __declspec( dllexport ) MVConverter
 {
 public:
 	MVConverter(void);
 	~MVConverter(void);
-	char * String2Char(string input);
-	const char * String2ConstChar(string input);
+	char * String2Char(std::string input);
+	const char * String2ConstChar(std::string input);
 };

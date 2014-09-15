@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListDirectory", "ListDirectory\ListDirectory.vcproj", "{22094824-FAC6-4303-9EA5-23E13D1F2523}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListDirectory", "ListDirectory\ListDirectory.vcproj", "{317673FE-AABA-4603-B72F-CEF903D1BB82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingLib", "UsingLib\UsingLib.vcproj", "{6BB82331-F727-4AB9-B23D-E3221CC88E8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +11,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22094824-FAC6-4303-9EA5-23E13D1F2523}.Debug|Win32.ActiveCfg = Debug|Win32
-		{22094824-FAC6-4303-9EA5-23E13D1F2523}.Debug|Win32.Build.0 = Debug|Win32
-		{22094824-FAC6-4303-9EA5-23E13D1F2523}.Release|Win32.ActiveCfg = Release|Win32
-		{22094824-FAC6-4303-9EA5-23E13D1F2523}.Release|Win32.Build.0 = Release|Win32
+		{317673FE-AABA-4603-B72F-CEF903D1BB82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{317673FE-AABA-4603-B72F-CEF903D1BB82}.Debug|Win32.Build.0 = Debug|Win32
+		{317673FE-AABA-4603-B72F-CEF903D1BB82}.Release|Win32.ActiveCfg = Release|Win32
+		{317673FE-AABA-4603-B72F-CEF903D1BB82}.Release|Win32.Build.0 = Release|Win32
+		{6BB82331-F727-4AB9-B23D-E3221CC88E8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BB82331-F727-4AB9-B23D-E3221CC88E8E}.Debug|Win32.Build.0 = Debug|Win32
+		{6BB82331-F727-4AB9-B23D-E3221CC88E8E}.Release|Win32.ActiveCfg = Release|Win32
+		{6BB82331-F727-4AB9-B23D-E3221CC88E8E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
